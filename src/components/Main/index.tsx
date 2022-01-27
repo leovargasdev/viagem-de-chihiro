@@ -21,8 +21,8 @@ export const Main = () => (
         </button>
       </div>
     </div>
-    {/* <div className={styles.ghosts}>
+    <div className={styles.ghosts}>
       <img src="banner.png" alt="Imagens ilustrando dois fantasminhas" />
-    </div> */}
+    </div>
   </main>
 )
