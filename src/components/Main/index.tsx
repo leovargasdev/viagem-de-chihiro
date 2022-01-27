@@ -1,3 +1,4 @@
+import { Play } from 'static/icons'
 import styles from './styles.module.scss'
 
 export const Main = () => (
@@ -12,7 +13,7 @@ export const Main = () => (
 
       <div className={styles.buttons}>
         <button type="button" className={styles['btn-play-now']}>
-          <img src="icons/play.svg" />
+          <Play />
           Assistir agora
         </button>
         <button type="button" className={styles['btn-watch-trailer']}>

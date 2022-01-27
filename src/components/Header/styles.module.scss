@@ -22,17 +22,19 @@
     li:hover svg path{
       animation: svg-hover 1.5s ease alternate;
     }
-  }
-
-  @media(max-width: 650px) {
-    align-items: flex-end;
-    background: blue;
-
-    ul {
+    
+    @media(max-width: 650px) {
       column-gap: 1rem;
+      padding-top: 0.375rem;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 }
+
 
 @keyframes svg-hover{
   0% {

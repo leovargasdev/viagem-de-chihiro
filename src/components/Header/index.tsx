@@ -1,4 +1,4 @@
-import { ReactSVG } from 'react-svg'
+import { Facebook, Instagram, Twitter, Youtube } from 'static/icons/'
 
 import styles from './styles.module.scss'
 
@@ -13,7 +13,7 @@ export const Header = () => (
           href="https://github.com/LeeonardoVargas"
           rel="noreferrer"
         >
-          <ReactSVG src="icons/facebook.svg" />
+          <Facebook />
         </a>
       </li>
       <li>
@@ -22,7 +22,7 @@ export const Header = () => (
           href="https://instagram.com/leuvargas"
           rel="noreferrer"
         >
-          <ReactSVG src="icons/instagram.svg" />
+          <Instagram />
         </a>
       </li>
       <li>
@@ -31,7 +31,7 @@ export const Header = () => (
           href="https://twitter.com/leuvargas"
           rel="noreferrer"
         >
-          <ReactSVG src="icons/twitter.svg" />
+          <Twitter />
         </a>
       </li>
       <li>
@@ -40,7 +40,7 @@ export const Header = () => (
           href="https://discord.com/invite/QevDJqCzaY"
           rel="noreferrer"
         >
-          <ReactSVG src="icons/youtube.svg" />
+          <Youtube />
         </a>
       </li>
     </ul>
