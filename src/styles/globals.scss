@@ -15,19 +15,15 @@ html {
 }
 
 :root {
-  --background: #f5f6fa;
+  --background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%);
 
-  --primary: #373D4F;
-  --secondary: #9098AE;
-}
-
-body {
-  background: var(--background);
+  --primary: #F9F9F9;
+  --secondary: #628E75;
 }
 
 body, button, textarea, input {
   color: var(--primary);
-  font: 400 1rem "Roboto", sans-serif;
+  font: 400 1rem "Poppins", sans-serif;
 }
 
 a {
