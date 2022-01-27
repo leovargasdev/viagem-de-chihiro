@@ -15,12 +15,21 @@
     column-gap: 2rem;
 
     svg {
-      width: 40px;
-      height: 40px;
+      width: 25px;
+      height: 25px;
     }
 
     li:hover svg path{
       animation: svg-hover 1.5s ease alternate;
+    }
+  }
+
+  @media(max-width: 650px) {
+    align-items: flex-end;
+    background: blue;
+
+    ul {
+      column-gap: 1rem;
     }
   }
 }
